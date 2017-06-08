@@ -13,10 +13,6 @@ import rx.Observable;
 import rx.subjects.BehaviorSubject;
 import rx.subjects.PublishSubject;
 
-/**
- * Created by adrianbusuioc on 6/8/17.
- */
-
 public class DetailFVM extends FragmentViewModel<DetailFragment> {
 
     private Random mGenerator = new Random();

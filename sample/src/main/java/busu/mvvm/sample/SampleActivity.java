@@ -6,10 +6,6 @@ import android.support.annotation.Nullable;
 import busu.mvvm.activity.BaseMvvmActivity;
 import busu.mvvm.activity.RequiresActivityViewModel;
 
-/**
- * Created by adrianbusuioc on 6/7/17.
- */
-
 @RequiresActivityViewModel(SampleAVM.class)
 public class SampleActivity extends BaseMvvmActivity<SampleAVM> {
 

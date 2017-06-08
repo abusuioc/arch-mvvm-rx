@@ -22,10 +22,6 @@ import busu.mvvm.activity.ActivityResult;
 import rx.Observable;
 import rx.subjects.BehaviorSubject;
 
-/**
- * Created by adrianbusuioc on 1/12/17 with heavy inspiration from the Kickstarter app
- */
-
 public abstract class BaseMvvmFragment<ViewModelType extends FragmentViewModel> extends Fragment implements FragmentLifecycleProvider,
         FragmentLifecycleType {
 

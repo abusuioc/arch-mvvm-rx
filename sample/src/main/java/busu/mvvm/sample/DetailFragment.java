@@ -7,10 +7,6 @@ import com.jakewharton.rxbinding.view.RxView;
 import busu.mvvm.fragment.BaseMvvmFragment;
 import busu.mvvm.fragment.RequiresFragmentViewModel;
 
-/**
- * Created by adrianbusuioc on 6/8/17.
- */
-
 @RequiresFragmentViewModel(DetailFVM.class)
 public class DetailFragment extends BaseMvvmFragment<DetailFVM> {
     @Override

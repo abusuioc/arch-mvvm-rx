@@ -5,10 +5,6 @@ import android.support.annotation.Nullable;
 
 import com.google.auto.value.AutoValue;
 
-/**
- * Created by adrianbusuioc on 3/9/17.
- */
-
 @AutoValue
 public abstract class ActivityResult {
     public abstract int requestCode();

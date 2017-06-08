@@ -12,10 +12,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * Created by adrianbusuioc on 3/9/17.
- */
-
 public class ActivityViewModelManager {
     private static final String VIEW_MODEL_ID_KEY = "view_model_id";
 

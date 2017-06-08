@@ -17,10 +17,6 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.subjects.BehaviorSubject;
 import rx.subjects.PublishSubject;
 
-/**
- * Created by adrianbusuioc on 3/9/17.
- */
-
 public class BaseMvvmActivity<ViewModelType extends ActivityViewModel> extends AppCompatActivity implements ActivityLifecycleProvider,
         ActivityLifecycleType {
     private final PublishSubject<Void> back = PublishSubject.create();

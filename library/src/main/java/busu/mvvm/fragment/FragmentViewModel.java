@@ -13,10 +13,6 @@ import busu.mvvm.activity.ActivityResult;
 import rx.Observable;
 import rx.subjects.PublishSubject;
 
-/**
- * Created by adrianbusuioc on 1/12/17.
- */
-
 public class FragmentViewModel<ViewType extends FragmentLifecycleType> {
 
     private final Application mApp;

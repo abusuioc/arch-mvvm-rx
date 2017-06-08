@@ -1,9 +1,5 @@
 package busu.mvvm.activity;
 
-/**
- * Created by adrianbusuioc on 3/9/17.
- */
-
 import com.trello.rxlifecycle.android.ActivityEvent;
 
 import rx.Observable;
